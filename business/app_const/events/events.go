@@ -1,0 +1,23 @@
+package events
+
+type Event string
+
+// Payment Events
+const (
+	PAYMENT_SUCCESS  Event = "PAYMENT_SUCCESS"
+	PAYMENT_FAILED   Event = "PAYMENT_FAILED"
+	PAYMENT_REFUNDED Event = "PAYMENT_REFUNDED"
+)
+
+// Booking Events
+const (
+	BOOKING_CREATED   Event = "BOOKING_CREATED"
+	BOOKING_CONFIRMED Event = "BOOKING_CONFIRMED"
+	BOOKING_CANCELLED Event = "BOOKING_CANCELLED"
+)
+
+// Cinema Event
+const (
+	BLOCKED_CINEMA_SEATS   Event = "BLOCKED_CINEMA_SEATS"
+	UNBLOCKED_CINEMA_SEATS Event = "BLOCKED_CINEMA_SEATS"
+)

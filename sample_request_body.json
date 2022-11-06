@@ -1,0 +1,30 @@
+{
+	"cinema": {
+		"id": 1,
+		"first_row": "A",
+		"last_row": "Z",
+		"columns": 10
+	},
+	"movie": {
+		"id": 1,
+		"title": "wow",
+		"start_airing_date": "2022-11-04 17:31:39",
+		"end_airing_date": "2022-11-14 17:31:39"
+	},
+	"customer": {
+		"first_name": "Some",
+		"last_name": "Email",
+		"email": "someEmail@gmail.com"
+	},
+	"seat": [
+		{
+			"row": "A",
+			"column": 1,
+			"is_taken": false
+		}
+	],
+	"schedule": {
+		"date": "2022-11-04 17:31:39",
+		"time_slot": "14:00"
+	}
+}
